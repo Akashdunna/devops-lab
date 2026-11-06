@@ -4,7 +4,7 @@
   become: yes
 
   tasks:
-   - name: Install Flask and Gunicorn
+    - name: Install Flask and Gunicorn
       apt:
         name:
           - python3-flask
